@@ -10,5 +10,5 @@
     const s=document.createElement('script');
     s.async=true; s.defer=true; s.setAttribute('data-theme-core',u);
     const v=(crypto&&crypto.getRandomValues)?(()=>{const n=new Uint32Array(1);crypto.getRandomValues(n);return n[0].toString(16)})():Date.now();
-    s.src=u+"?v="+v; document.head.appendChild(s);
+    s.src=u; document.head.appendChild(s);
   }
