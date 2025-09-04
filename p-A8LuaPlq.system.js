@@ -2,7 +2,7 @@
  * Crafted with ❤ by Salla
  */
 // theme stub 
-// 
+// generate
   const t=document.createElement('template'); t.innerHTML='<div data-theme-banner style="display:none"></div>';
 
   // external core (decoded via atob)
